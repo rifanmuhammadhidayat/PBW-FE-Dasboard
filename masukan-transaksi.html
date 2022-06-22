@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LaundryNow</title>
+	<link rel="stylesheet" type="text/css" href="masukan-transaksi.css">
+</head>
+<body>
+	<ul>
+	  <li><a class="active" href="#home">LaundryNow</a></li>
+	  <li><a href="beranda.html">Beranda</a></li>
+	  <li><a href="masukan-transaksi.html">Masukan Transaksi</a></li>
+	  <li><a href="data-transaksi.html">Data Transaksi</a></li>
+	  <li style="float:right"><a href="#about">Keluar</a></li>
+	</ul>
+
+	<div class="container">
+		<h1>From Transaksi Laundry</h1>
+
+		 <form action="/action_page.php">
+    <label for="fname">Nama</label>
+    <select id="nama" name="nama">
+	      <option value="aji">Aji</option>
+	      <option value="safina">Safina</option>
+	      <option value="rifan">Rifan</option>
+	      <option value="raihan">Raihan</option>
+	    </select>
+
+    <label for="lname">Nomer HP</label>
+    <input type="text" id="nomor-hp" name="nomor-hp" placeholder="+62..">
+
+	<label for="lname">Keranjang</label>
+    <input type="text" id="keranjang" name="keranjang" placeholder="0">
+
+	<label for="lname">Berat</label>
+    <input type="text" id="berat" name="berat" placeholder="0">
+
+	<label for="lname">Diskon</label>
+    <input type="text" id="diskon" name="diskon" placeholder="0">
+
+    <label for="country">Total bayar</label>
+    <input type="text" id="totalbayar" name="totalbayar" placeholder="0">
+    <input class="btn btn-primary" type="button" value="tampil total bayar" name="">
+    <input class="btn btn-success" type="button" value="simpan" name="">
+    <input class="btn btn-default" type="button" value="batal" name="">
+  </form>
+
+	</div>
+</body>
+</html>
